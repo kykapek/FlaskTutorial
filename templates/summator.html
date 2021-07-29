@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Summator</title>
+</head>
+<body>
+    <h1>Welcome to Summator</h1>
+    <h4>Please input 2 numbers</h4>
+    <form method = "post" action = "/sum">
+        <input type = "number" name = "a" placeholder="Input first number" >
+        <br>
+        <br>
+        <input type="number" name = "b" placeholder="Input second number">
+        <br>
+        <br>
+        <input type="submit" value="Submit" name = "result">
+    </form>
+    {% if l == true %}
+        <p>Result : {{res}} </p>
+    {% endif %}
+
+</body>
+</html>
